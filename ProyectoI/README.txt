@@ -17,4 +17,6 @@
 > Para el procesador ARM, se uso la imagen DE1_SoC_SD.img, del siguiente link:
 	http://www.terasic.com/downloads/cd-rom/de1-soc/linux_BSP/DE1_SoC_SD.zip
 
-> 
+> Compilar todo el proyecto antes de flashear la FPGA
+
+
