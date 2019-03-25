@@ -1,0 +1,5 @@
+*.bak
+.qsys_edit
+incremental_db
+db
+output_files
