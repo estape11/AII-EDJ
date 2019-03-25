@@ -1365,8 +1365,6 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_35
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name QSYS_FILE de1_arm_nios.qsys
-set_global_assignment -name QIP_FILE de1_arm_nios/synthesis/de1_arm_nios.qip
 set_global_assignment -name VHDL_FILE top_level.vhd
 set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[0] -tag __hps_sdram_p0
 set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[0] -tag __hps_sdram_p0

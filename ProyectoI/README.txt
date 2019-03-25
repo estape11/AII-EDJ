@@ -19,4 +19,8 @@
 
 > Compilar todo el proyecto antes de flashear la FPGA
 
+> El mapa de direcciones se define de la siguiente manera:
+	leds -> 0x00010000 - 0x0001000F
+	OnChip (NIOS) -> 0x00000000 - 0x0000FFFF
+	SDRAM -> 0x04000000 - 0x07FFFFFF
 
