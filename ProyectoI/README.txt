@@ -31,7 +31,10 @@
 	* denoise_arm
 
 > Para abrir Eclipse para Nios II
-	$ /home/user/intelFPGA_lite/18.1/nios2eds/eclipse-nios2
+	$ ./intelFPGA_lite/18.1/nios2eds/bin/eclipse-nios2
 
 > Para abrir Eclipse DS-5
-	$ /home/user/intelFPGA/18.1/embedded/ds-5/eclipse
+	$ ./intelFPGA/18.1/embedded/ds-5/bin/eclipse
+
+> Para copiar el binario al ARM
+	$ scp file root@ip:/home/root/path

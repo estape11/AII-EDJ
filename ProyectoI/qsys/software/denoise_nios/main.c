@@ -30,6 +30,5 @@ int main()
 	}
 	printf("** Lectura de sdram[0] = %d **\n", sdram[0]);
 	*leds=0xAA;
-	printf("> Interrupcion de HPS\n");
 	return 0;
 }
