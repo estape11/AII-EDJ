@@ -36,5 +36,8 @@
 > Para abrir Eclipse DS-5
 	$ ./intelFPGA/18.1/embedded/ds-5/bin/eclipse
 
-> Para copiar el binario al ARM
+> Para copiar un archivo al ARM
 	$ scp file root@ip:/home/root/path
+
+> Para copiar un archivo del ARM
+	$ scp root@ip:/home/root/path/file /path2paste

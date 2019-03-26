@@ -11,7 +11,7 @@
    <inputclock preferredWidth="158" />
   </columns>
  </systemtable>
- <library expandedCategories="Project,Library" />
- <window width="1022" height="492" x="53" y="52" />
+ <library expandedCategories="Library,Project" />
+ <window width="1010" height="1011" x="63" y="34" />
  <generation block_symbol_file="0" synthesis="VHDL" path="_PROJECT_NAME_" />
 </preferences>

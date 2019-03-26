@@ -4,12 +4,15 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../denoise.c \
 ../main.c 
 
 OBJS += \
+./denoise.o \
 ./main.o 
 
 C_DEPS += \
+./denoise.d \
 ./main.d 
 
 
