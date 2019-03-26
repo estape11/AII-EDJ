@@ -41,3 +41,6 @@
 
 > Para copiar un archivo del ARM
 	$ scp root@ip:/home/root/path/file /path2paste
+
+> Convertir imagen al formato PGM
+	$ convert file -compress None file.pgm
