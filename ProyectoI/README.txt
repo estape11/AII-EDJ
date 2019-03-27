@@ -37,10 +37,13 @@
 	$ ./intelFPGA/18.1/embedded/ds-5/bin/eclipse
 
 > Para copiar un archivo al ARM
-	$ scp file root@ip:/home/root/path
+	$ scp <file> root@ip:/home/root/path
 
 > Para copiar un archivo del ARM
 	$ scp root@ip:/home/root/path/file /path2paste
 
 > Convertir imagen al formato PGM
-	$ convert file -compress None file.pgm
+	$ convert <file> -compress None <file>.pgm
+
+> Para ejecutar el filtro en el ARM
+	$ ./denoise_arm <fileIn>.pgm <fileOut>.pgm <fracArm>
