@@ -140,6 +140,8 @@ int main ( int argc, char *argv[] ){
 	while(*leds==0xFF){} // until NIOS stops the processing
 	endNIOS = clock();
 
+	if(fracNIOS==0){endNIOS = start;} // case no NIOS processing
+
 	totalTime = (double) (endNIOS-start)/ CLOCKS_PER_SEC;
 	printf("> Total time NIOS: %f s\n", totalTime);
 
